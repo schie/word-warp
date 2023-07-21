@@ -1,0 +1,120 @@
+{
+  "consonants": {
+    "plosive": [
+      { "sound": "/p/", "letters": ["p"] },
+      { "sound": "/b/", "letters": ["b"] },
+      { "sound": "/t/", "letters": ["t"] },
+      { "sound": "/d/", "letters": ["d"] },
+      { "sound": "/k/", "letters": ["k", "c"] },
+      { "sound": "/g/", "letters": ["g"] }
+    ],
+    "nasal": [
+      { "sound": "/m/", "letters": ["m"] },
+      { "sound": "/n/", "letters": ["n"] },
+      { "sound": "/ŋ/", "letters": ["ng"] },
+      { "sound": "/ŋk/", "letters": ["nk"] }
+    ],
+    "tapFlap": [{ "sound": "/ɾ/", "letters": ["tt"] }],
+    "fricative": [
+      { "sound": "/f/", "letters": ["f"] },
+      { "sound": "/v/", "letters": ["v"] },
+      { "sound": "/θ/", "letters": ["th"] },
+      { "sound": "/ð/", "letters": ["th"] },
+      { "sound": "/s/", "letters": ["s"] },
+      { "sound": "/z/", "letters": ["z"] },
+      { "sound": "/ʃ/", "letters": ["sh"] },
+      { "sound": "/ʒ/", "letters": ["s"] },
+      { "sound": "/h/", "letters": ["h"] }
+    ],
+    "affricate": [
+      { "sound": "/tʃ/", "letters": ["ch"] },
+      { "sound": "/dʒ/", "letters": ["j"] }
+    ],
+    "approximant": [
+      { "sound": "/l/", "letters": ["l"] },
+      { "sound": "/ɹ/", "letters": ["r"] },
+      { "sound": "/j/", "letters": ["y"] },
+      { "sound": "/w/", "letters": ["w"] }
+    ]
+  },
+  "vowels": {
+    "front": [
+      { "sound": "/i/", "letters": ["ee"] },
+      { "sound": "/ɪ/", "letters": ["i"] },
+      { "sound": "/ɛ/", "letters": ["e"] },
+      { "sound": "/æ/", "letters": ["a"] }
+    ],
+    "central": [
+      { "sound": "/ə/", "letters": ["a"] },
+      { "sound": "/ʌ/", "letters": ["u"] },
+      { "sound": "/ɜː/", "letters": ["er"] }
+    ],
+    "back": [
+      { "sound": "/u/", "letters": ["oo"] },
+      { "sound": "/ʊ/", "letters": ["oo"] },
+      { "sound": "/ɔ/", "letters": ["o"] },
+      { "sound": "/ɑ/", "letters": ["a"] }
+    ]
+  },
+  "diphthongs": [
+    { "sound": "/aɪ/", "letters": ["i"] },
+    { "sound": "/aʊ/", "letters": ["ow"] },
+    { "sound": "/oʊ/", "letters": ["o"] },
+    { "sound": "/ɔɪ/", "letters": ["oi"] },
+    { "sound": "/eɪ/", "letters": ["ay"] },
+    { "sound": "/ɪə/", "letters": ["ear"] },
+    { "sound": "/ʊə/", "letters": ["ure"] }
+  ],
+  "restrictions": {
+    "": ["/ŋ/", "/ŋk/", "/ɾ/"],
+    "/h/": [
+      "/p/",
+      "/b/",
+      "/t/",
+      "/d/",
+      "/k/",
+      "/g/",
+      "/m/",
+      "/n/",
+      "/f/",
+      "/v/",
+      "/s/",
+      "/z/",
+      "/ʃ/",
+      "/tʃ/",
+      "/dʒ/",
+      "/l/",
+      "/r/",
+      "/w/",
+      "/j/",
+      "/θ/",
+      "/ð/",
+      "/ŋ/",
+      "/h/"
+    ],
+    "/ɾ/": [
+      "/p/",
+      "/b/",
+      "/k/",
+      "/g/",
+      "/f/",
+      "/v/",
+      "/s/",
+      "/z/",
+      "/ʃ/",
+      "/tʃ/",
+      "/dʒ/",
+      "/l/",
+      "/ɾ/",
+      "/θ/",
+      "/ð/"
+    ],
+    "/ʃ/": ["/l/", "/p/"],
+    "/tʃ/": ["/l/"],
+    "/dʒ/": ["/l/", "/dʒ/", "/p/"],
+    "/ð/": ["/ŋ/", "/f/", "/ʃ/", "/p/"],
+    "/j/": ["/h/", "/f/"],
+    "/ŋ/": ["/h/", "/f/", "/g/"],
+    "/z/": ["/dʒ/"]
+  }
+}

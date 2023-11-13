@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/word-warp/static/css/main.e607b187.css",
-    "main.js": "/word-warp/static/js/main.4cea4ef8.js",
+    "main.js": "/word-warp/static/js/main.87954de3.js",
     "static/js/787.d6af65b4.chunk.js": "/word-warp/static/js/787.d6af65b4.chunk.js",
     "index.html": "/word-warp/index.html",
     "main.e607b187.css.map": "/word-warp/static/css/main.e607b187.css.map",
-    "main.4cea4ef8.js.map": "/word-warp/static/js/main.4cea4ef8.js.map",
+    "main.87954de3.js.map": "/word-warp/static/js/main.87954de3.js.map",
     "787.d6af65b4.chunk.js.map": "/word-warp/static/js/787.d6af65b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e607b187.css",
-    "static/js/main.4cea4ef8.js"
+    "static/js/main.87954de3.js"
   ]
 }
